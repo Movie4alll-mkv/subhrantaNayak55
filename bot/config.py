@@ -16,7 +16,7 @@
 from decouple import config
 
 try:
-    APP_ID = config("APP_ID", cast=int)
+    APP_ID = config("APP_ID","6534707" cast=int)
     API_HASH = config("API_HASH")
     BOT_TOKEN = config("BOT_TOKEN")
     DEV = 1322549723
